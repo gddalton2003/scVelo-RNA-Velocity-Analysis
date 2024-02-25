@@ -16,4 +16,4 @@ Files required for this: (1) mm10_rmsk.gtf (to mask repeats), (2) gencode.vM25.a
 
 ***Step 2***: Velocyto creates a spliced and unspliced matrix for each sample and this can be merged with the anndata object (code in file name Step 2). 
 
-***Steps 3 and 4***: After this merged anndata object is created, scVelo RNA velocity analysis can be run in stochastic mode (code in file named Step 3) or dynamical mode (code in file named Step 4). The stochastic and dynamical analysis were both run using Jupyter notebook.
+***Steps 3 and 4***: After this merged anndata object is created, scVelo RNA velocity analysis can be run in stochastic mode (code in file named Step 3) or dynamical mode (code in file named Step 4). The stochastic and dynamical analyses were both run using Jupyter notebook.
