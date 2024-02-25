@@ -7,7 +7,7 @@ used to determine cell fate decisions via pseudtime trajectory analysis.
 ***Pre-Processing***: The process starts in R where information can be extracted from a fully processed Seurat object. The information required from the Seurat object is an expression counts 
 matrix, pca dimensionality reduction matrix, barcodes, gene names, and UMAP info. 
 
-*** Step 1***: The information from the pre-processing step is used to make an anndata object (code in file named Step 1). 
+***Step 1***: The information from the pre-processing step is used to make an anndata object (code in file named Step 1). 
 
 ***Velocyto***: In additon to an anndata object, one must construct spliced and unspliced matrices as a loom file. This is done using velocyto from the command line in Linux. This can be run from the folder in Linux where you want the velocyto results in. 
 Files required for this: (1) mm10_rmsk.gtf (to mask repeats), (2) gencode.vM25.annotation.gtf (as annotation reference), (3) barcodes.tsv file, and (4) possorted_genome_bam.bam file. 
